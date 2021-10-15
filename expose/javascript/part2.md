@@ -23,9 +23,7 @@ This will print 150. This is the value calculated in the last iteration of the f
 **Question 8:**
 The function will return an array containing the discounted prices: [50, 100, 150]. These are the values calculated in the for loop by doing 
 ```
-{
     finalPrice = Math.round(discountedPrice * 100)/100;
-}
 ```
 And then pushing that to the array discounted. This is the variable that is being returned.
 
@@ -39,3 +37,11 @@ The code will corredcty output 3. The length variable was declared within teh bo
 This will return the same th ing as before: an array containing [50, 100, 150]. This is calculated within the body of the for loop and then added to discounted using discounted.push. Since the variable was not reassigned there are no errors even though discounted is a const.
 
 **Question 12:** (this apparently is supopsed to be in part2.md)
+
+```
+    student.name;                       // part a
+    student["Grad year"];               // part b
+    student.greeting();                 // part c
+    student["Favorite Teacher"].name    // part d
+    student.courseLoad[0]               // part e
+```
