@@ -103,7 +103,23 @@ The difference between == and === lies in the fact that === is strict equality w
 ---
 
 **Question 17:**
+1. The output of the the function call is an array containing [2, 4, 6]
+2. We  pass in the array [1,2,3] and a callback functrion to doSomething()
+3. The loop iterates through each element in the array and calls doSomething() on each element
+4. Do somethign will double that element.
+5. The result is stored in new array.
+6. So 1 gets doubled to 2, 2 becomes 4 and 3 becomes 6.
+7. This new arrray is then returned.
 
+---
+
+**Question 18**
+> This is in part2-question18.js
+
+---
+
+**Question 19**
+This prints: 1 4 3 2, each on a new line in that order. Console.log(1) runs first. then Console.log(4) will print, the setTimeout with delay of 0 will cause the console.log(3) to be  slightly slower than the console.log(4). Then lastly  2 prints after a 1 second wait because of the timeout.
 
 
 
